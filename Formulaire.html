@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <h1> Formulaire</h1>
+    
+<form method="get" action="">
+    <p> 
+        <fieldset> 
+            <legend> CIVILITÉ </legend>
+            <br> <label> Votre nom: <input type="text" size="20" maxlength="15"/></label> <br>
+            <br> <label> Votre prénom: <input type="text" size="20" maxlength="15"/></label> <br>
+            <br> <label> Sexe : <input type="radio" name="sexe" value="f"/> F <input type="radio" name="sexe" value="m"/> M </label> <br>
+            <br> <label> Age : <input type="number" min="0" max="105"/> Date de naissance : <input type="date"/> Pays de naissance <input type="text" size="20"/> </label> <br>
+            <br> <label> Nationalité : <select name="nationalité"> 
+                <option> Français </option> 
+                <option> Italien </option>
+                <option> Canadien </option> 
+                <option selected> Norvégien </option>
+                <option> Irlandais </option>
+         </select> </label> <br>
+        </fieldset>
+        <br>
+        <fieldset> 
+            <legend> DONNEÉS </legend>
+            <br> <label> Adresse Email : <input type="email"></label> <br>
+            <br> <label> Adresse postale : <input type="text" size="25"/> Code postal : <input type="number"/> Ville : <input type="text" /></label> <br>
+            <br> <label> Numéro de sécurité social : <input type="number"/></label> <br>
+            <br> <label> Numéro de passeport : <input type="number" /> Date de délivrance : <input type="date" /> Date de validité : <input type="date" /></label>
+        </fieldset>
+        <br>
+        <fieldset> 
+            <legend> PROFESSION </legend>
+            <br> <label> Métier exercé : <select name="metier">
+            <option>-</option>
+            <option> Achats / Comptabilité / Gestion </option>
+            <option> Commerce / Vente </option>
+            <option> Informatique / Télécommunication </option>
+            <option> Hôtellerie - Restaurantion / Tourisme/Animation </option>
+            <option> Secrétariat / Assistanat </option>
+            <option> Services à la personne / à la collectivité </option>
+            <option> Transport / Logistique </option>
+            <option> Santé </option>
+            <option> Industrie </option>
+            <option> Immobilier </option>
+            <option> Espaces verts et naturels / Agriculture / Pêche / Soins aux animaux </option>
+           </select></label>
+        </fieldset>               
+    </p>
+</form>
+
+</body>
+</html>
